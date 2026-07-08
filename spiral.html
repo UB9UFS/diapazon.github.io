@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Спиральная антенна — ДИАПАЗОН</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="page-header">
+            <a href="calculators.html" class="btn-back">← Назад</a>
+            <a href="index.html" class="btn-back">Главная</a>
+            <span class="logo-small">ДИАПАЗОН</span>
+        </div>
+        <div class="card">
+            <h2>🌀 Спиральная антенна</h2>
+            <div class="sub">цилиндрическая спираль с круговой поляризацией (осевой режим)</div>
+
+            <label>Частота (МГц)</label>
+            <input type="number" id="helixFreq" value="2400" step="1">
+
+            <label>Число витков N</label>
+            <input type="number" id="helixTurns" value="5" step="1" min="1">
+
+            <label>Диаметр спирали D (мм)</label>
+            <input type="number" id="helixDiam" value="30" step="0.1">
+
+            <label>Шаг витка S (мм)</label>
+            <input type="number" id="helixStep" value="12" step="0.1">
+
+            <div class="btn-row">
+                <button class="btn" onclick="calcHelix()">Рассчитать</button>
+            </div>
+
+            <div class="result" id="helixResult">Результат появится здесь</div>
+        </div>
+        <footer>
+            ДИАПАЗОН
+            <br>© 2026
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
