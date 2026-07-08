@@ -1,10 +1,1 @@
-[script.js](https://github.com/user-attachments/files/29810223/script.js)
-[spiral.html](https://github.com/user-attachments/files/29810224/spiral.html)
-[pauk.html](https://github.com/user-attachments/files/29810232/pauk.html)
-[j.html](https://github.com/user-attachments/files/29810231/j.html)
-[index.html](https://github.com/user-attachments/files/29810230/index.html)
-[dipol.html](https://github.com/user-attachments/files/29810229/dipol.html)
-[calculators.html](https://github.com/user-attachments/files/29810228/calculators.html)
-[yagi.html](https://github.com/user-attachments/files/29810227/yagi.html)
-[treugolnik.html](https://github.com/user-attachments/files/29810226/treugolnik.html)
-[style.css](https://github.com/user-attachments/files/29810225/style.css)
+
